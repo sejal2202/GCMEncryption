@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D729DC8B25D4F66100B53D74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729DC8A25D4F66100B53D74 /* AppDelegate.swift */; };
+		D729DC8F25D4F66100B53D74 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729DC8E25D4F66100B53D74 /* ViewController.swift */; };
+		D729DC9225D4F66100B53D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D729DC9025D4F66100B53D74 /* Main.storyboard */; };
+		D729DC9425D4F66300B53D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D729DC9325D4F66300B53D74 /* Assets.xcassets */; };
+		D729DC9725D4F66300B53D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D729DC9525D4F66300B53D74 /* LaunchScreen.storyboard */; };
+		D729DCAD25D4F8BC00B53D74 /* SwCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729DCAC25D4F8BC00B53D74 /* SwCrypt.swift */; };
+		D729DCB025D4FF9900B53D74 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729DCAF25D4FF9900B53D74 /* SwiftyJSON.swift */; };
+		D729DCB625D516D400B53D74 /* GCMEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = D729DCB525D516D400B53D74 /* GCMEncryption.m */; };
+		D729DCBB25D51B1100B53D74 /* SwiftGCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D729DCBA25D51B1100B53D74 /* SwiftGCM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D729DC8725D4F66100B53D74 /* GCMEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCMEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D729DC8A25D4F66100B53D74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D729DC8E25D4F66100B53D74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D729DC9125D4F66100B53D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D729DC9325D4F66300B53D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D729DC9625D4F66300B53D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D729DC9825D4F66300B53D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D729DCAC25D4F8BC00B53D74 /* SwCrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwCrypt.swift; sourceTree = "<group>"; };
+		D729DCAF25D4FF9900B53D74 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		D729DCB425D516D400B53D74 /* GCMEncryption-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GCMEncryption-Bridging-Header.h"; sourceTree = "<group>"; };
+		D729DCB525D516D400B53D74 /* GCMEncryption.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCMEncryption.m; sourceTree = "<group>"; };
+		D729DCB825D516F500B53D74 /* CommonCryptorSPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonCryptorSPI.h; sourceTree = "<group>"; };
+		D729DCBA25D51B1100B53D74 /* SwiftGCM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftGCM.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D729DC8425D4F66100B53D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D729DC7E25D4F66100B53D74 = {
+			isa = PBXGroup;
+			children = (
+				D729DC8925D4F66100B53D74 /* GCMEncryption */,
+				D729DC8825D4F66100B53D74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D729DC8825D4F66100B53D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D729DC8725D4F66100B53D74 /* GCMEncryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D729DC8925D4F66100B53D74 /* GCMEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				D729DC8A25D4F66100B53D74 /* AppDelegate.swift */,
+				D729DC8E25D4F66100B53D74 /* ViewController.swift */,
+				D729DCB225D4FF9C00B53D74 /* Helper */,
+				D729DCAB25D4F8A200B53D74 /* GCMEncryption */,
+				D729DC9025D4F66100B53D74 /* Main.storyboard */,
+				D729DC9325D4F66300B53D74 /* Assets.xcassets */,
+				D729DC9525D4F66300B53D74 /* LaunchScreen.storyboard */,
+				D729DC9825D4F66300B53D74 /* Info.plist */,
+			);
+			path = GCMEncryption;
+			sourceTree = "<group>";
+		};
+		D729DCAB25D4F8A200B53D74 /* GCMEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				D729DCAC25D4F8BC00B53D74 /* SwCrypt.swift */,
+			);
+			path = GCMEncryption;
+			sourceTree = "<group>";
+		};
+		D729DCB225D4FF9C00B53D74 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D729DCB925D51AEA00B53D74 /* Framework */,
+				D729DCAF25D4FF9900B53D74 /* SwiftyJSON.swift */,
+				D729DCB525D516D400B53D74 /* GCMEncryption.m */,
+				D729DCB825D516F500B53D74 /* CommonCryptorSPI.h */,
+				D729DCB425D516D400B53D74 /* GCMEncryption-Bridging-Header.h */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D729DCB925D51AEA00B53D74 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				D729DCBA25D51B1100B53D74 /* SwiftGCM.swift */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D729DC8625D4F66100B53D74 /* GCMEncryption */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D729DC9B25D4F66300B53D74 /* Build configuration list for PBXNativeTarget "GCMEncryption" */;
+			buildPhases = (
+				D729DC8325D4F66100B53D74 /* Sources */,
+				D729DC8425D4F66100B53D74 /* Frameworks */,
+				D729DC8525D4F66100B53D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCMEncryption;
+			productName = GCMEncryption;
+			productReference = D729DC8725D4F66100B53D74 /* GCMEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D729DC7F25D4F66100B53D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					D729DC8625D4F66100B53D74 = {
+						CreatedOnToolsVersion = 12.0;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = D729DC8225D4F66100B53D74 /* Build configuration list for PBXProject "GCMEncryption" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D729DC7E25D4F66100B53D74;
+			productRefGroup = D729DC8825D4F66100B53D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D729DC8625D4F66100B53D74 /* GCMEncryption */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D729DC8525D4F66100B53D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729DC9725D4F66300B53D74 /* LaunchScreen.storyboard in Resources */,
+				D729DC9425D4F66300B53D74 /* Assets.xcassets in Resources */,
+				D729DC9225D4F66100B53D74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D729DC8325D4F66100B53D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D729DCB625D516D400B53D74 /* GCMEncryption.m in Sources */,
+				D729DCAD25D4F8BC00B53D74 /* SwCrypt.swift in Sources */,
+				D729DC8F25D4F66100B53D74 /* ViewController.swift in Sources */,
+				D729DCBB25D51B1100B53D74 /* SwiftGCM.swift in Sources */,
+				D729DC8B25D4F66100B53D74 /* AppDelegate.swift in Sources */,
+				D729DCB025D4FF9900B53D74 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D729DC9025D4F66100B53D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D729DC9125D4F66100B53D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D729DC9525D4F66300B53D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D729DC9625D4F66300B53D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D729DC9925D4F66300B53D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D729DC9A25D4F66300B53D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D729DC9C25D4F66300B53D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX5Z9W2984;
+				INFOPLIST_FILE = GCMEncryption/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcmencryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GCMEncryption/Helper/GCMEncryption-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D729DC9D25D4F66300B53D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FX5Z9W2984;
+				INFOPLIST_FILE = GCMEncryption/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gcmencryption;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GCMEncryption/Helper/GCMEncryption-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D729DC8225D4F66100B53D74 /* Build configuration list for PBXProject "GCMEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729DC9925D4F66300B53D74 /* Debug */,
+				D729DC9A25D4F66300B53D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D729DC9B25D4F66300B53D74 /* Build configuration list for PBXNativeTarget "GCMEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D729DC9C25D4F66300B53D74 /* Debug */,
+				D729DC9D25D4F66300B53D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D729DC7F25D4F66100B53D74 /* Project object */;
+}
